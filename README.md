@@ -6,9 +6,27 @@ This theme was originally based on an existing SketchyBar theme and then modifie
 
 ## Preview
 
-![Theme preview](assets/preview.png)
+### Theme 1: Compact provider view
 
-The CodexBar section refreshes every 5 minutes and only shows providers that currently return usable data. Providers that are disabled or unavailable are hidden automatically. Clicking the section toggles between the color-coded provider view and the compact single-item view.
+![Compact provider view](assets/preview.png)
+
+The compact view keeps CodexBar usage in a single item. It is the least visually busy option and works well when you want the bar to stay minimal.
+
+```text
+CDX 97% · GEM 100% · COP 59%
+```
+
+### Theme 2: Color-coded provider view
+
+![Color-coded provider view](assets/preview-theme-2.png)
+
+The color-coded view renders each provider as its own small item. Provider names stay in the default text color while the percentage changes color based on how close that provider is to its reset time. This keeps the theme readable while still making reset timing visible at a glance.
+
+```text
+CDX 87%   CUR 100%   GEM 100%   COP 59%
+```
+
+Clicking any CodexBar provider toggles between the compact view and the color-coded provider view. The CodexBar section refreshes every 5 minutes and only shows providers that currently return usable data. Providers that are disabled or unavailable are hidden automatically.
 
 ## Features
 
