@@ -39,7 +39,7 @@ sketchybar --add item codexbar e \
     drawing=off \
     script="$PLUGIN_SHARED_DIR/codexbar.sh" \
     update_freq=300 \
-    --subscribe codexbar system_woke
+    --subscribe codexbar system_woke mouse.clicked
 
 sketchybar --add item current_space left \
     --set current_space \

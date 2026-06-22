@@ -8,7 +8,7 @@ This theme was originally based on an existing SketchyBar theme and then modifie
 
 ![Theme preview](assets/preview.png)
 
-The CodexBar section refreshes every 5 minutes and only shows providers that currently return usable data. Providers that are disabled or unavailable are hidden automatically.
+The CodexBar section refreshes every 5 minutes and only shows providers that currently return usable data. Providers that are disabled or unavailable are hidden automatically. Clicking the section toggles between the color-coded provider view and the compact single-item view.
 
 ## Features
 
@@ -38,11 +38,18 @@ It then:
 - tolerates partial provider failures
 - removes providers that disappear from CodexBar output
 - hides itself when no usable providers are returned
+- toggles between split color-coded mode and compact mode on click
 
-Provider format:
+Split provider format:
 
 ```text
 CDX 97%   GEM 100%   COP 59%
+```
+
+Compact format:
+
+```text
+CDX 97% · GEM 100% · COP 59%
 ```
 
 Values represent remaining quota for each provider. Provider codes stay in the default text color. The percentage is color-coded by time until that provider's primary reset.

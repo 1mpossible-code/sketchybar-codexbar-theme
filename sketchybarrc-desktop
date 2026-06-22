@@ -76,7 +76,7 @@ sketchybar --add item codexbar right \
     drawing=off \
     script="$PLUGIN_SHARED_DIR/codexbar.sh" \
     update_freq=300 \
-    --subscribe codexbar system_woke
+    --subscribe codexbar system_woke mouse.clicked
 
 ##### Finalizing Setup #####
 sketchybar --update
