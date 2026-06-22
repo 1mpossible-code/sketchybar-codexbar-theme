@@ -36,11 +36,10 @@ sketchybar --default \
 
 sketchybar --add item codexbar e \
     --set codexbar \
-    icon= \
-    icon.color=0xff8aadf4 \
+    drawing=off \
     script="$PLUGIN_SHARED_DIR/codexbar.sh" \
     update_freq=300 \
-    --subscribe codexbar system_woke mouse.clicked
+    --subscribe codexbar system_woke
 
 sketchybar --add item current_space left \
     --set current_space \

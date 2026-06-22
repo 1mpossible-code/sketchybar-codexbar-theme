@@ -73,11 +73,10 @@ sketchybar --add item clock right \
 
 sketchybar --add item codexbar right \
     --set codexbar \
-    icon= \
-    background.color=0xff8aadf4 \
+    drawing=off \
     script="$PLUGIN_SHARED_DIR/codexbar.sh" \
     update_freq=300 \
-    --subscribe codexbar system_woke mouse.clicked
+    --subscribe codexbar system_woke
 
 ##### Finalizing Setup #####
 sketchybar --update
