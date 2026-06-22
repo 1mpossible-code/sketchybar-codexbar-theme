@@ -114,7 +114,3 @@ If your setup differs, copy the files into your existing SketchyBar config and m
 - `sketchybarrc-desktop` contains the desktop bar layout
 - `plugins/` contains shared plugins
 - `plugins-laptop/` contains laptop-specific plugins
-
-## Attribution
-
-This project is a modified theme, not a from-scratch design. If you know the original source theme, replace this note with a direct credit link.
